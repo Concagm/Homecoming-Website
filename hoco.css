@@ -1,0 +1,195 @@
+body {
+    background-image: linear-gradient(to top right, #262326, #32DB84);
+    width: 80%, margin: auto;
+}
+
+.centered_buttons {
+    text-align: center;
+}
+
+h1{
+    color: #CFAC33;
+    text-align:center;
+    font-size: 6vw;
+    font-family: 'Merriweather', serif;
+}
+
+a{
+  text-align: center;
+  font-family: monospace;
+  line-height: 25%;
+  font-size: 2vw;
+  color: #F2BE22;
+  border: 2px solid #F2BE22;
+  padding: 3% 6%;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:hover{
+    text-align: center;
+  font-family: monospace;
+  line-height: 25%;
+  font-size: 2vw;
+  color: #262326;
+  border: 2px solid #F2BE22;
+  padding: 3% 6%;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #F2BE22;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+  width: 100%;
+  float: left;
+  padding: 15px;
+}
+
+@media only screen and (min-width: 992px) {
+     .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+@media only screen and (max-width: 992px) {
+     .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+@media only screen and (max-width: 850px){
+    .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (max-width: 768px) {
+       .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (max-width: 600px) {
+     .col-1 {width: 100%;}
+  .col-2 {width: 100%;}
+  .col-3 {width: 100%;}
+  .col-4 {width: 100%;}
+  .col-5 {width: 100%;}
+  .col-6 {width: 100%;}
+  .col-7 {width: 100%;}
+  .col-8 {width: 100%;}
+  .col-9 {width: 100%;}
+  .col-10 {width: 100%;}
+  .col-11 {width: 100%;}
+  .col-12 {width: 100%;}
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.line li{
+background-color:  #D9B448;
+padding: 8px;
+margin-bottom: 7px;
+color: #04591A;
+text-align: center;
+font-size: 2vw;
+font-weight: bold;
+}
+
+.events{
+background-color:  #D9B448;
+padding: 8px;
+margin-bottom: 7px;
+color: #04591A;
+text-align: center;
+font-size: 2vw;
+font-weight: bold;
+}
+
+.wear{
+    text-align:center;
+    font-size: 5vw;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.hoco{
+    line-height: 80%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3vw;
+    color: black;
+    font-family: 'Merriweather', serif;
+    line-height: 80%;
+}
+
+.neverland {
+    font-family: 'Kaushan Script', cursive;
+    color: #9FEEF0;
+    font-size: 3vw;
+    line-height: 80%;
+}
+
+.logo{
+    float: left;
+    max-width: 60%;
+    height: auto;
+    line-height: 80%;
+}
