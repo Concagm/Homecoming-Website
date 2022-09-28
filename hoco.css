@@ -21,7 +21,7 @@ a{
   font-size: 2vw;
   color: #F2BE22;
   border: 2px solid #F2BE22;
-  padding: 3% 6%;
+  padding: 1% 1%;
   display: inline-block;
   text-decoration: none;
 }
@@ -33,7 +33,7 @@ a:hover{
   font-size: 2vw;
   color: #262326;
   border: 2px solid #F2BE22;
-  padding: 3% 6%;
+  padding: 1% 1%;
   display: inline-block;
   text-decoration: none;
   background-color: #F2BE22;
