@@ -1,6 +1,9 @@
 body {
-    background-image: linear-gradient(to top right, #262326, #32DB84);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 80%, margin: auto;
+    background-image: linear-gradient(to top right, #262326, #32DB84);
 }
 
 .centered_buttons {
